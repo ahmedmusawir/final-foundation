@@ -178,10 +178,15 @@ a {
 	background: darken( dodgerblue, 10% );
 	margin-bottom: 1rem;
 	padding-bottom: 1rem;
-	img {
+	img.img-top-left {
 		// padding-top: 1.5rem;
+		margin-left: -1rem;
 	}
-
+	img.img-bottom-right {
+		// padding-top: 1.5rem;
+		margin-left: 1em;
+		// border: 1px solid red;
+	}
 
 	.about-content {
 		padding-top: 1.5rem;
@@ -224,6 +229,13 @@ a {
 	padding-bottom: 1rem;
 	img {
 		// padding-top: 1.5rem;
+		@include filter(grayscale(100%));
+
+		&:hover {
+			@include filter(grayscale(30%));
+			opacity: 1;
+		}
+
 	}
 
 

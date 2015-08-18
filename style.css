@@ -9623,27 +9623,35 @@ a img:hover {
   margin-bottom: 1rem;
   padding-bottom: 1rem;
 }
-/* line 186, scss/_custom.scss */
+/* line 181, scss/_custom.scss */
+.about-block img.img-top-left {
+  margin-left: -1rem;
+}
+/* line 185, scss/_custom.scss */
+.about-block img.img-bottom-right {
+  margin-left: 1em;
+}
+/* line 191, scss/_custom.scss */
 .about-block .about-content {
   padding-top: 1.5rem;
   padding-left: 1.5rem;
   padding-right: 1rem;
 }
-/* line 192, scss/_custom.scss */
+/* line 197, scss/_custom.scss */
 .about-block .about-content h2 {
   color: #51a9ff;
 }
-/* line 197, scss/_custom.scss */
+/* line 202, scss/_custom.scss */
 .about-block .about-content p small {
   font-size: 70%;
   border-bottom: 1px solid #84c2ff;
   padding-bottom: .5rem;
 }
-/* line 202, scss/_custom.scss */
+/* line 207, scss/_custom.scss */
 .about-block .about-content p small a {
   color: #ff9cce;
 }
-/* line 205, scss/_custom.scss */
+/* line 210, scss/_custom.scss */
 .about-block .about-content p small a:hover {
   color: yellow;
 }
@@ -9653,29 +9661,40 @@ a img:hover {
 * Portfolio Page
 *
 **/
-/* line 220, scss/_custom.scss */
+/* line 225, scss/_custom.scss */
 .portfolio-block {
   background: #0077ea;
   margin-bottom: 1rem;
   padding-bottom: 1rem;
 }
 /* line 230, scss/_custom.scss */
+.portfolio-block img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+/* line 234, scss/_custom.scss */
+.portfolio-block img:hover {
+  -webkit-filter: grayscale(30%);
+  filter: grayscale(30%);
+  opacity: 1;
+}
+/* line 242, scss/_custom.scss */
 .portfolio-block .portfolio-content {
   padding-top: 1.5rem;
   padding-left: 1.5rem;
   padding-right: 1rem;
 }
-/* line 237, scss/_custom.scss */
+/* line 249, scss/_custom.scss */
 .portfolio-block .portfolio-content h2 {
   color: #51a9ff;
 }
-/* line 241, scss/_custom.scss */
+/* line 253, scss/_custom.scss */
 .portfolio-block .portfolio-content nav {
   background-color: #3e3e3e;
   padding-top: 1em;
   margin-bottom: 1em;
 }
-/* line 249, scss/_custom.scss */
+/* line 261, scss/_custom.scss */
 .portfolio-block .portfolio-content nav dd a:hover {
   color: white;
 }
@@ -9685,37 +9704,37 @@ a img:hover {
 * Full Width Page
 *
 **/
-/* line 264, scss/_custom.scss */
+/* line 276, scss/_custom.scss */
 .full-width-block {
   background: #0077ea;
   margin-bottom: 1rem;
   padding-bottom: 1rem;
 }
-/* line 269, scss/_custom.scss */
+/* line 281, scss/_custom.scss */
 .full-width-block img {
   padding-top: 1rem;
 }
-/* line 274, scss/_custom.scss */
+/* line 286, scss/_custom.scss */
 .full-width-block .full-width-content {
   padding-top: 1.5rem;
   padding-left: 1.5rem;
   padding-right: 1rem;
 }
-/* line 280, scss/_custom.scss */
+/* line 292, scss/_custom.scss */
 .full-width-block .full-width-content h2 {
   color: #51a9ff;
 }
-/* line 285, scss/_custom.scss */
+/* line 297, scss/_custom.scss */
 .full-width-block .full-width-content p small {
   font-size: 70%;
   border-bottom: 1px solid #84c2ff;
   padding-bottom: .5rem;
 }
-/* line 290, scss/_custom.scss */
+/* line 302, scss/_custom.scss */
 .full-width-block .full-width-content p small a {
   color: #ff9cce;
 }
-/* line 293, scss/_custom.scss */
+/* line 305, scss/_custom.scss */
 .full-width-block .full-width-content p small a:hover {
   color: yellow;
 }
@@ -9725,37 +9744,37 @@ a img:hover {
 * Page Single
 *
 **/
-/* line 308, scss/_custom.scss */
+/* line 320, scss/_custom.scss */
 .page-single-block {
   background: #0077ea;
   margin-bottom: 1rem;
   padding-bottom: 1rem;
 }
-/* line 313, scss/_custom.scss */
+/* line 325, scss/_custom.scss */
 .page-single-block img {
   padding-top: 1.5rem;
 }
-/* line 318, scss/_custom.scss */
+/* line 330, scss/_custom.scss */
 .page-single-block .page-single-content {
   padding-top: 1.5rem;
   padding-left: 1.5rem;
   padding-right: 1rem;
 }
-/* line 324, scss/_custom.scss */
+/* line 336, scss/_custom.scss */
 .page-single-block .page-single-content h2 {
   color: #51a9ff;
 }
-/* line 329, scss/_custom.scss */
+/* line 341, scss/_custom.scss */
 .page-single-block .page-single-content p small {
   font-size: 70%;
   border-bottom: 1px solid #84c2ff;
   padding-bottom: .5rem;
 }
-/* line 334, scss/_custom.scss */
+/* line 346, scss/_custom.scss */
 .page-single-block .page-single-content p small a {
   color: #ff9cce;
 }
-/* line 337, scss/_custom.scss */
+/* line 349, scss/_custom.scss */
 .page-single-block .page-single-content p small a:hover {
   color: yellow;
 }
@@ -9765,35 +9784,35 @@ a img:hover {
 * Page Contact
 *
 **/
-/* line 352, scss/_custom.scss */
+/* line 364, scss/_custom.scss */
 .contact-block {
   background: #0077ea;
   margin-bottom: 1rem;
   padding-bottom: 1rem;
 }
-/* line 357, scss/_custom.scss */
+/* line 369, scss/_custom.scss */
 .contact-block img {
   padding-top: 1.5rem;
 }
-/* line 362, scss/_custom.scss */
+/* line 374, scss/_custom.scss */
 .contact-block .contact-content {
   padding-top: 1.5rem;
   padding-left: 1.5rem;
   padding-right: 1rem;
 }
-/* line 368, scss/_custom.scss */
+/* line 380, scss/_custom.scss */
 .contact-block .contact-content h2 {
   color: #51a9ff;
 }
-/* line 373, scss/_custom.scss */
+/* line 385, scss/_custom.scss */
 .contact-block .contact-content form {
   padding-right: .5em;
 }
-/* line 377, scss/_custom.scss */
+/* line 389, scss/_custom.scss */
 .contact-block .contact-content form label {
   color: #b7dbff;
 }
-/* line 381, scss/_custom.scss */
+/* line 393, scss/_custom.scss */
 .contact-block .contact-content form .button {
   border: 2px double #005db7;
 }
@@ -9803,19 +9822,19 @@ a img:hover {
 * Content Sidebar
 *
 **/
-/* line 393, scss/_custom.scss */
+/* line 405, scss/_custom.scss */
 .contact-sidebar-block {
   margin-bottom: 1rem;
   background: dodgerblue;
 }
-/* line 398, scss/_custom.scss */
+/* line 410, scss/_custom.scss */
 .contact-sidebar-block .contact-sidebar-content {
   background: dodgerblue;
   padding-top: 1.5rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
-/* line 406, scss/_custom.scss */
+/* line 418, scss/_custom.scss */
 .contact-sidebar-block .contact-sidebar-content h3 {
   color: #c6c6c6;
   padding-bottom: .5em;
@@ -9826,12 +9845,12 @@ a img:hover {
 * Sidebar Content
 *
 **/
-/* line 418, scss/_custom.scss */
+/* line 430, scss/_custom.scss */
 .sidebar-block {
   margin-bottom: 1rem;
   background: dodgerblue;
 }
-/* line 423, scss/_custom.scss */
+/* line 435, scss/_custom.scss */
 .sidebar-block .sidebar-content {
   background: dodgerblue;
   padding-top: 1.5rem;
@@ -9839,34 +9858,34 @@ a img:hover {
   padding-right: 1rem;
 }
 
-/* line 434, scss/_custom.scss */
+/* line 446, scss/_custom.scss */
 .widget h3 {
   color: #aeaeae;
 }
-/* line 438, scss/_custom.scss */
+/* line 450, scss/_custom.scss */
 .widget img {
   padding-right: .5em;
 }
-/* line 440, scss/_custom.scss */
+/* line 452, scss/_custom.scss */
 .widget img:hover {
   opacity: .6;
 }
-/* line 445, scss/_custom.scss */
+/* line 457, scss/_custom.scss */
 .widget .widget-list {
   padding-bottom: 1.5rem;
   padding-right: .5rem;
 }
-/* line 451, scss/_custom.scss */
+/* line 463, scss/_custom.scss */
 .widget .widget-list li {
   background-color: #51a9ff;
   border-bottom: 1px solid #005db7;
   padding: 1rem;
 }
-/* line 456, scss/_custom.scss */
+/* line 468, scss/_custom.scss */
 .widget .widget-list li:hover {
   background-color: #0077ea;
 }
-/* line 459, scss/_custom.scss */
+/* line 471, scss/_custom.scss */
 .widget .widget-list li:hover a {
   color: lightgrey;
 }
@@ -9876,11 +9895,11 @@ a img:hover {
 * Footer
 *
 **/
-/* line 475, scss/_custom.scss */
+/* line 487, scss/_custom.scss */
 .footer a {
   color: #51a9ff;
 }
-/* line 478, scss/_custom.scss */
+/* line 490, scss/_custom.scss */
 .footer a:hover {
   color: #b7dbff;
 }
