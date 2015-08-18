@@ -33,19 +33,7 @@
                       <dd><a href="#" data-filter=".photography">Photography</a></dd>
                     </dl>
                   </nav>
-                  <br>
-                  <br>
-                  <br>
-
-               <!--    <nav class="large-12 medium-12 columns">
-                     <ul class="sub-nav portfolio-filter">
-                      <li class="active"><a href="#" data-filter="*">All</a></dd>
-                      <li><a href="#" data-filter=".animation">Animation</a></dd>
-                      <li><a href="#" data-filter=".web">Web Design</a></dd>
-                      <li><a href="#" data-filter=".photography">Photography</a></dd>
-                    </ul>
-                  </nav> -->
-                 
+                     
                    <div class="">
                       <ul class="small-block-grid-2 medium-block-grid-4 large-block-grid-4 portfolio-container">
                         <li class="grid-item animation web "><a href="#" title=""><img class="th" src="http://lorempixel.com/640/640/abstract/1"></a></li>
