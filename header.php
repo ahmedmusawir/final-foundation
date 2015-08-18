@@ -31,8 +31,9 @@
             <a href="#">Dropdown</a>
 
             <ul class="dropdown">
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="active"><a href="#">Active link in dropdown</a></li>
+              <li><a href="single.php">Single Post</a></li>
+              <li><a href="page.php">Single Page</a></li>
+              <li><a href="full-width.php">Full Width Page</a></li>
             </ul>
           </li>
         </ul>

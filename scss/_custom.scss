@@ -125,6 +125,293 @@ a {
 
 /**
 *
+* Blog Single
+*
+**/
+
+.blog-single-block {
+
+	background: darken( dodgerblue, 10% );
+	margin-bottom: 1rem;
+	padding-bottom: 1rem;
+	img {
+		padding-top: 1.5rem;
+	}
+
+
+	.blog-single-content {
+		padding-top: 1.5rem;
+		padding-left: 1.5rem;
+		padding-right: 1rem;
+		// border: 1px solid yellow;
+
+		h2 {
+			color: lighten( dodgerblue, 10% );
+		}
+
+		p {
+			small {
+				font-size: 70%;
+				border-bottom: 1px solid lighten( dodgerblue, 20% );
+				padding-bottom: .5rem;
+
+				a {
+					color: lighten( hotpink, 10% );
+
+					&:hover {
+						color: yellow;
+					}
+				}
+			}
+		}
+	}
+}
+
+/**
+*
+* About Page
+*
+**/
+
+.about-block {
+
+	background: darken( dodgerblue, 10% );
+	margin-bottom: 1rem;
+	padding-bottom: 1rem;
+	img {
+		// padding-top: 1.5rem;
+	}
+
+
+	.about-content {
+		padding-top: 1.5rem;
+		padding-left: 1.5rem;
+		padding-right: 1rem;
+		// border: 1px solid yellow;
+
+		h2 {
+			color: lighten( dodgerblue, 10% );
+		}
+
+		p {
+			small {
+				font-size: 70%;
+				border-bottom: 1px solid lighten( dodgerblue, 20% );
+				padding-bottom: .5rem;
+
+				a {
+					color: lighten( hotpink, 10% );
+
+					&:hover {
+						color: yellow;
+					}
+				}
+			}
+		}
+	}
+}
+
+/**
+*
+* Portfolio Page
+*
+**/
+
+.portfolio-block {
+
+	background: darken( dodgerblue, 10% );
+	margin-bottom: 1rem;
+	padding-bottom: 1rem;
+	img {
+		// padding-top: 1.5rem;
+	}
+
+
+	.portfolio-content {
+
+		padding-top: 1.5rem;
+		padding-left: 1.5rem;
+		padding-right: 1rem;
+		// border: 1px solid yellow;
+
+		h2 {
+			color: lighten( dodgerblue, 10% );
+		}
+
+		nav {
+			// border: 1px solid black;
+			background-color: #3e3e3e;
+			padding-top: 1em;
+			margin-bottom: 1em;
+
+			dd {
+				a {
+					&:hover {
+						color: white;
+					}	
+				}
+				
+			}
+		}
+	}
+}
+/**
+*
+* Full Width Page
+*
+**/
+
+.full-width-block {
+
+	background: darken( dodgerblue, 10% );
+	margin-bottom: 1rem;
+	padding-bottom: 1rem;
+	img {
+		padding-top: 1rem;
+	}
+
+
+	.full-width-content {
+		padding-top: 1.5rem;
+		padding-left: 1.5rem;
+		padding-right: 1rem;
+		// border: 1px solid yellow;
+
+		h2 {
+			color: lighten( dodgerblue, 10% );
+		}
+
+		p {
+			small {
+				font-size: 70%;
+				border-bottom: 1px solid lighten( dodgerblue, 20% );
+				padding-bottom: .5rem;
+
+				a {
+					color: lighten( hotpink, 10% );
+
+					&:hover {
+						color: yellow;
+					}
+				}
+			}
+		}
+	}
+}
+
+/**
+*
+* Page Single
+*
+**/
+
+.page-single-block {
+
+	background: darken( dodgerblue, 10% );
+	margin-bottom: 1rem;
+	padding-bottom: 1rem;
+	img {
+		padding-top: 1.5rem;
+	}
+
+
+	.page-single-content {
+		padding-top: 1.5rem;
+		padding-left: 1.5rem;
+		padding-right: 1rem;
+		// border: 1px solid yellow;
+
+		h2 {
+			color: lighten( dodgerblue, 10% );
+		}
+
+		p {
+			small {
+				font-size: 70%;
+				border-bottom: 1px solid lighten( dodgerblue, 20% );
+				padding-bottom: .5rem;
+
+				a {
+					color: lighten( hotpink, 10% );
+
+					&:hover {
+						color: yellow;
+					}
+				}
+			}
+		}
+	}
+}
+
+/**
+*
+* Page Contact
+*
+**/
+
+.contact-block {
+
+	background: darken( dodgerblue, 10% );
+	margin-bottom: 1rem;
+	padding-bottom: 1rem;
+	img {
+		padding-top: 1.5rem;
+	}
+
+
+	.contact-content {
+		padding-top: 1.5rem;
+		padding-left: 1.5rem;
+		padding-right: 1rem;
+		// border: 1px solid yellow;
+
+		h2 {
+			color: lighten( dodgerblue, 10% );
+		}
+
+
+		form {
+
+			padding-right: .5em;
+
+			label {
+				color: lighten( dodgerblue, 30% );
+
+			}
+			.button {
+				border: 2px double darken( dodgerblue, 20% );
+			}
+		}
+	}
+}
+
+/**
+*
+* Content Sidebar
+*
+**/
+.contact-sidebar-block {
+	margin-bottom: 1rem;
+	background: dodgerblue;
+		// border: 1px solid yellow;
+
+	.contact-sidebar-content {
+		background: dodgerblue;
+		padding-top: 1.5rem;
+		padding-left: 1.5rem;
+		padding-right: 1.5rem;
+		// border: 1px solid red;
+
+
+		h3 {
+			color: darken( lightgrey, 5% );
+			padding-bottom: .5em;
+		}
+	}
+}
+
+/**
+*
 * Sidebar Content
 *
 **/
@@ -177,6 +464,21 @@ a {
 		}
 	
 	}	
+}
+
+/**
+*
+* Footer
+*
+**/
+.footer {
+	a {
+		color: lighten( dodgerblue, 10% );
+
+		&:hover {
+			color: lighten( dodgerblue, 30% );
+		}
+	}
 }
 
 
