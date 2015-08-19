@@ -94,11 +94,11 @@
              <div class="large-5 medium-12 columns">
 
               <div class="flex-video widescreen vimeo">
-                <!-- <iframe src="http://player.vimeo.com/video/136114837" width="400" height="225" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> -->
+                <!-- <iframe src="http://player.vimeo.com/video/136114837?title=0&amp;byline=0&amp;portrait=0" width="400" height="225" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> -->
                 <iframe src="//player.vimeo.com/video/35565030?title=0&amp;byline=0&amp;portrait=0" style="width: 100%; height: auto; border: 0;" allowfullscreen></iframe>
               </div>
               <div class="flex-video widescreen vimeo">
-                <!-- <iframe src="http://player.vimeo.com/video/136114837" width="400" height="225" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> -->
+                <!-- <iframe src="http://player.vimeo.com/video/113142476?title=0&amp;byline=0&amp;portrait=0" width="400" height="225" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> -->
                 <iframe src="//player.vimeo.com/video/113142476?title=0&amp;byline=0&amp;portrait=0" style="width: 100%; height: auto; border: 0;" allowfullscreen></iframe>
               </div>
 
@@ -274,29 +274,23 @@
     
     <div class="row content-row">
     
-          <article class="frontpage-block clearfix">
+          <article class="frontpage-block-1 clearfix">
 
             <div class="large-5 medium-5 columns">
               <!-- <a class="" href="#" title=""><img class="img-responsive" src="images/blog-img-1.jpeg" alt=""></a> -->
               <!-- <a class="" href="#" title=""><img class="img-responsive" src="http://lorempixel.com/640/640/abstract/6" alt=""></a> -->
             </div>
-            <div class="frontpage-content large-7 medium-7 columns">
-              <h3><a href="#" title="">Article Title</a></h3>
-              <p>
-                <small>
-                  Posted on <em><a href="#" title="">2 June 2015</a></em> by <a href="#" title="">Da Moose</a> in
-                  <a href="#" title="">Cars</a>, <a href="#" title="">Sports Cars</a>
-                </small></p>
-              <p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. 
-              </p>
+            <div class="frontpage-content-1 large-12 medium-12 columns text-center">
+              <h2>Subscribe Now</h2>
+              
+              <form action="" method="get" accept-charset="utf-8">
+
+              <input type="text" name="" value="" placeholder="Your Email">
+              <input class="button" type="submit">
+                            
+              </form>
             </div>
-            <a href="#" class="button right" title="">Read More</a>
+            
 
           </article>
 
