@@ -9515,17 +9515,26 @@ header.frontpage-header {
   background-size: cover;
 }
 /* line 64, scss/_custom.scss */
+header.frontpage-header a.button {
+  background: transparent;
+  border: 4px solid dodgerblue;
+}
+/* line 67, scss/_custom.scss */
+header.frontpage-header a.button:hover {
+  background: #0077ea;
+}
+/* line 72, scss/_custom.scss */
 header.frontpage-header h1 {
   color: #84c2ff;
   font-size: 5rem;
 }
-/* line 68, scss/_custom.scss */
+/* line 76, scss/_custom.scss */
 header.frontpage-header h4 {
   color: #51a9ff;
   font-size: 2rem;
   margin-bottom: 2rem;
 }
-/* line 74, scss/_custom.scss */
+/* line 82, scss/_custom.scss */
 header.frontpage-header .frontpage-header-row {
   margin-top: 8rem;
   margin-bottom: 1rem;
@@ -9534,53 +9543,152 @@ header.frontpage-header .frontpage-header-row {
   background: rgba(0, 0, 0, 0.3);
 }
 
-/* line 85, scss/_custom.scss */
-.frontpage-background-block {
+/* line 93, scss/_custom.scss */
+.frontpage-background-block-1 {
   background: #002951;
 }
-/* line 89, scss/_custom.scss */
-.frontpage-background-block .frontpage-block {
+/* line 99, scss/_custom.scss */
+.frontpage-background-block-1 .frontpage-block-1 {
+  padding-top: 3rem;
   margin-bottom: 1rem;
 }
-/* line 92, scss/_custom.scss */
-.frontpage-background-block .frontpage-block a.button {
-  border: 2px double #005db7;
+/* line 104, scss/_custom.scss */
+.frontpage-background-block-1 .frontpage-block-1 .flex-video {
+  margin-top: 3rem;
 }
-/* line 97, scss/_custom.scss */
-.frontpage-background-block .frontpage-block img {
+/* line 110, scss/_custom.scss */
+.frontpage-background-block-1 .frontpage-block-1 img {
   border-radius: 50%;
   padding-top: 1.5rem;
 }
-/* line 101, scss/_custom.scss */
-.frontpage-background-block .frontpage-block img:hover {
+/* line 114, scss/_custom.scss */
+.frontpage-background-block-1 .frontpage-block-1 img:hover {
   border-radius: 0%;
 }
-/* line 107, scss/_custom.scss */
-.frontpage-background-block .frontpage-block .frontpage-content {
+/* line 120, scss/_custom.scss */
+.frontpage-background-block-1 .frontpage-block-1 .frontpage-content-1 {
   padding-top: 1.5rem;
   padding-left: 1.5rem;
   padding-right: 1rem;
 }
-/* line 114, scss/_custom.scss */
-.frontpage-background-block .frontpage-block .frontpage-content h3 a {
+/* line 127, scss/_custom.scss */
+.frontpage-background-block-1 .frontpage-block-1 .frontpage-content-1 h3 a {
   color: #84c2ff;
 }
-/* line 116, scss/_custom.scss */
-.frontpage-background-block .frontpage-block .frontpage-content h3 a:hover {
+/* line 129, scss/_custom.scss */
+.frontpage-background-block-1 .frontpage-block-1 .frontpage-content-1 h3 a:hover {
   color: #d1e8ff;
 }
-/* line 123, scss/_custom.scss */
-.frontpage-background-block .frontpage-block .frontpage-content p small {
+/* line 136, scss/_custom.scss */
+.frontpage-background-block-1 .frontpage-block-1 .frontpage-content-1 p small {
   font-size: 70%;
   border-bottom: 1px solid #84c2ff;
   padding-bottom: .5rem;
 }
-/* line 128, scss/_custom.scss */
-.frontpage-background-block .frontpage-block .frontpage-content p small a {
+/* line 141, scss/_custom.scss */
+.frontpage-background-block-1 .frontpage-block-1 .frontpage-content-1 p small a {
   color: #ff9cce;
 }
-/* line 131, scss/_custom.scss */
-.frontpage-background-block .frontpage-block .frontpage-content p small a:hover {
+/* line 144, scss/_custom.scss */
+.frontpage-background-block-1 .frontpage-block-1 .frontpage-content-1 p small a:hover {
+  color: yellow;
+}
+
+/* line 157, scss/_custom.scss */
+.frontpage-background-block-2 .frontpage-block-2 {
+  padding-top: 2rem;
+  margin-bottom: 1rem;
+}
+/* line 159, scss/_custom.scss */
+.frontpage-background-block-2 .frontpage-block-2 .flex-video {
+  margin-bottom: -2.3rem;
+}
+/* line 167, scss/_custom.scss */
+.frontpage-background-block-2 .frontpage-block-2 img {
+  border-radius: 50%;
+  padding-top: 1.5rem;
+}
+/* line 171, scss/_custom.scss */
+.frontpage-background-block-2 .frontpage-block-2 img:hover {
+  border-radius: 0%;
+}
+/* line 177, scss/_custom.scss */
+.frontpage-background-block-2 .frontpage-block-2 .frontpage-content-2 {
+  padding-top: 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1rem;
+  background: rgba(0, 0, 0, 0.5);
+}
+/* line 185, scss/_custom.scss */
+.frontpage-background-block-2 .frontpage-block-2 .frontpage-content-2 h3 a {
+  color: #84c2ff;
+}
+/* line 187, scss/_custom.scss */
+.frontpage-background-block-2 .frontpage-block-2 .frontpage-content-2 h3 a:hover {
+  color: #d1e8ff;
+}
+/* line 194, scss/_custom.scss */
+.frontpage-background-block-2 .frontpage-block-2 .frontpage-content-2 p small {
+  font-size: 70%;
+  border-bottom: 1px solid #84c2ff;
+  padding-bottom: .5rem;
+}
+/* line 199, scss/_custom.scss */
+.frontpage-background-block-2 .frontpage-block-2 .frontpage-content-2 p small a {
+  color: #ff9cce;
+}
+/* line 202, scss/_custom.scss */
+.frontpage-background-block-2 .frontpage-block-2 .frontpage-content-2 p small a:hover {
+  color: yellow;
+}
+
+/* line 212, scss/_custom.scss */
+.frontpage-background-block-3 {
+  background: #005db7;
+}
+/* line 216, scss/_custom.scss */
+.frontpage-background-block-3 .frontpage-block {
+  margin-bottom: 1rem;
+}
+/* line 219, scss/_custom.scss */
+.frontpage-background-block-3 .frontpage-block a.button {
+  border: 2px double #005db7;
+}
+/* line 224, scss/_custom.scss */
+.frontpage-background-block-3 .frontpage-block img {
+  border-radius: 50%;
+  padding-top: 1.5rem;
+}
+/* line 228, scss/_custom.scss */
+.frontpage-background-block-3 .frontpage-block img:hover {
+  border-radius: 0%;
+}
+/* line 234, scss/_custom.scss */
+.frontpage-background-block-3 .frontpage-block .frontpage-content {
+  padding-top: 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1rem;
+}
+/* line 241, scss/_custom.scss */
+.frontpage-background-block-3 .frontpage-block .frontpage-content h3 a {
+  color: #84c2ff;
+}
+/* line 243, scss/_custom.scss */
+.frontpage-background-block-3 .frontpage-block .frontpage-content h3 a:hover {
+  color: #d1e8ff;
+}
+/* line 250, scss/_custom.scss */
+.frontpage-background-block-3 .frontpage-block .frontpage-content p small {
+  font-size: 70%;
+  border-bottom: 1px solid #84c2ff;
+  padding-bottom: .5rem;
+}
+/* line 255, scss/_custom.scss */
+.frontpage-background-block-3 .frontpage-block .frontpage-content p small a {
+  color: #ff9cce;
+}
+/* line 258, scss/_custom.scss */
+.frontpage-background-block-3 .frontpage-block .frontpage-content p small a:hover {
   color: yellow;
 }
 
@@ -9589,17 +9697,17 @@ header.frontpage-header .frontpage-header-row {
 * Blog Layout
 *
 **/
-/* line 146, scss/_custom.scss */
+/* line 273, scss/_custom.scss */
 .content-row {
   background: transparent;
   margin-bottom: 1em;
 }
-/* line 151, scss/_custom.scss */
+/* line 278, scss/_custom.scss */
 .content-row .content-col {
   background: transparent;
   height: 100%;
 }
-/* line 156, scss/_custom.scss */
+/* line 283, scss/_custom.scss */
 .content-row .sidebar-col {
   background: transparent;
   height: 100%;
@@ -9610,49 +9718,49 @@ header.frontpage-header .frontpage-header-row {
 * Blog Block
 *
 **/
-/* line 168, scss/_custom.scss */
+/* line 295, scss/_custom.scss */
 .blog-index-block {
   background: #0077ea;
   margin-bottom: 1rem;
 }
-/* line 171, scss/_custom.scss */
+/* line 298, scss/_custom.scss */
 .blog-index-block a.button {
   border: 2px double #005db7;
 }
-/* line 176, scss/_custom.scss */
+/* line 303, scss/_custom.scss */
 .blog-index-block img {
   border-radius: 50%;
   padding-top: 1.5rem;
 }
-/* line 180, scss/_custom.scss */
+/* line 307, scss/_custom.scss */
 .blog-index-block img:hover {
   border-radius: 0%;
 }
-/* line 186, scss/_custom.scss */
+/* line 313, scss/_custom.scss */
 .blog-index-block .blog-index-content {
   padding-top: 1.5rem;
   padding-left: 1.5rem;
   padding-right: 1rem;
 }
-/* line 193, scss/_custom.scss */
+/* line 320, scss/_custom.scss */
 .blog-index-block .blog-index-content h3 a {
   color: #84c2ff;
 }
-/* line 195, scss/_custom.scss */
+/* line 322, scss/_custom.scss */
 .blog-index-block .blog-index-content h3 a:hover {
   color: #d1e8ff;
 }
-/* line 202, scss/_custom.scss */
+/* line 329, scss/_custom.scss */
 .blog-index-block .blog-index-content p small {
   font-size: 70%;
   border-bottom: 1px solid #84c2ff;
   padding-bottom: .5rem;
 }
-/* line 207, scss/_custom.scss */
+/* line 334, scss/_custom.scss */
 .blog-index-block .blog-index-content p small a {
   color: #ff9cce;
 }
-/* line 210, scss/_custom.scss */
+/* line 337, scss/_custom.scss */
 .blog-index-block .blog-index-content p small a:hover {
   color: yellow;
 }
@@ -9662,37 +9770,37 @@ header.frontpage-header .frontpage-header-row {
 * Blog Single
 *
 **/
-/* line 225, scss/_custom.scss */
+/* line 352, scss/_custom.scss */
 .blog-single-block {
   background: #0077ea;
   margin-bottom: 1rem;
   padding-bottom: 1rem;
 }
-/* line 230, scss/_custom.scss */
+/* line 357, scss/_custom.scss */
 .blog-single-block img {
   padding-top: 1.5rem;
 }
-/* line 235, scss/_custom.scss */
+/* line 362, scss/_custom.scss */
 .blog-single-block .blog-single-content {
   padding-top: 1.5rem;
   padding-left: 1.5rem;
   padding-right: 1rem;
 }
-/* line 241, scss/_custom.scss */
+/* line 368, scss/_custom.scss */
 .blog-single-block .blog-single-content h2 {
   color: #51a9ff;
 }
-/* line 246, scss/_custom.scss */
+/* line 373, scss/_custom.scss */
 .blog-single-block .blog-single-content p small {
   font-size: 70%;
   border-bottom: 1px solid #84c2ff;
   padding-bottom: .5rem;
 }
-/* line 251, scss/_custom.scss */
+/* line 378, scss/_custom.scss */
 .blog-single-block .blog-single-content p small a {
   color: #ff9cce;
 }
-/* line 254, scss/_custom.scss */
+/* line 381, scss/_custom.scss */
 .blog-single-block .blog-single-content p small a:hover {
   color: yellow;
 }
@@ -9702,41 +9810,41 @@ header.frontpage-header .frontpage-header-row {
 * About Page
 *
 **/
-/* line 269, scss/_custom.scss */
+/* line 396, scss/_custom.scss */
 .about-block {
   background: #0077ea;
   margin-bottom: 1rem;
   padding-bottom: 1rem;
 }
-/* line 274, scss/_custom.scss */
+/* line 401, scss/_custom.scss */
 .about-block img.img-top-left {
   margin-left: -1rem;
 }
-/* line 278, scss/_custom.scss */
+/* line 405, scss/_custom.scss */
 .about-block img.img-bottom-right {
   margin-left: 1em;
 }
-/* line 284, scss/_custom.scss */
+/* line 411, scss/_custom.scss */
 .about-block .about-content {
   padding-top: 1.5rem;
   padding-left: 1.5rem;
   padding-right: 1rem;
 }
-/* line 290, scss/_custom.scss */
+/* line 417, scss/_custom.scss */
 .about-block .about-content h2 {
   color: #51a9ff;
 }
-/* line 295, scss/_custom.scss */
+/* line 422, scss/_custom.scss */
 .about-block .about-content p small {
   font-size: 70%;
   border-bottom: 1px solid #84c2ff;
   padding-bottom: .5rem;
 }
-/* line 300, scss/_custom.scss */
+/* line 427, scss/_custom.scss */
 .about-block .about-content p small a {
   color: #ff9cce;
 }
-/* line 303, scss/_custom.scss */
+/* line 430, scss/_custom.scss */
 .about-block .about-content p small a:hover {
   color: yellow;
 }
@@ -9746,44 +9854,44 @@ header.frontpage-header .frontpage-header-row {
 * Portfolio Page
 *
 **/
-/* line 318, scss/_custom.scss */
+/* line 445, scss/_custom.scss */
 .portfolio-block {
   background: #0077ea;
   margin-bottom: 1rem;
   padding-bottom: 1rem;
 }
-/* line 323, scss/_custom.scss */
+/* line 450, scss/_custom.scss */
 .portfolio-block img {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
-/* line 327, scss/_custom.scss */
+/* line 454, scss/_custom.scss */
 .portfolio-block img:hover {
   -webkit-filter: grayscale(30%);
   filter: grayscale(30%);
   opacity: 1;
 }
-/* line 335, scss/_custom.scss */
+/* line 462, scss/_custom.scss */
 .portfolio-block .portfolio-content {
   padding-top: 1.5rem;
   padding-left: 1.5rem;
   padding-right: 1rem;
 }
-/* line 342, scss/_custom.scss */
+/* line 469, scss/_custom.scss */
 .portfolio-block .portfolio-content h2 {
   color: #51a9ff;
 }
-/* line 346, scss/_custom.scss */
+/* line 473, scss/_custom.scss */
 .portfolio-block .portfolio-content nav {
   background-color: #3e3e3e;
   padding-top: 1em;
   margin-bottom: 1em;
 }
-/* line 354, scss/_custom.scss */
+/* line 481, scss/_custom.scss */
 .portfolio-block .portfolio-content nav dd a:hover {
   color: white;
 }
-/* line 362, scss/_custom.scss */
+/* line 489, scss/_custom.scss */
 .portfolio-block .portfolio-content .portfolio-container {
   margin-top: 6rem;
 }
@@ -9793,37 +9901,37 @@ header.frontpage-header .frontpage-header-row {
 * Full Width Page
 *
 **/
-/* line 374, scss/_custom.scss */
+/* line 501, scss/_custom.scss */
 .full-width-block {
   background: #0077ea;
   margin-bottom: 1rem;
   padding-bottom: 1rem;
 }
-/* line 379, scss/_custom.scss */
+/* line 506, scss/_custom.scss */
 .full-width-block img {
   padding-top: 1rem;
 }
-/* line 384, scss/_custom.scss */
+/* line 511, scss/_custom.scss */
 .full-width-block .full-width-content {
   padding-top: 1.5rem;
   padding-left: 1.5rem;
   padding-right: 1rem;
 }
-/* line 390, scss/_custom.scss */
+/* line 517, scss/_custom.scss */
 .full-width-block .full-width-content h2 {
   color: #51a9ff;
 }
-/* line 395, scss/_custom.scss */
+/* line 522, scss/_custom.scss */
 .full-width-block .full-width-content p small {
   font-size: 70%;
   border-bottom: 1px solid #84c2ff;
   padding-bottom: .5rem;
 }
-/* line 400, scss/_custom.scss */
+/* line 527, scss/_custom.scss */
 .full-width-block .full-width-content p small a {
   color: #ff9cce;
 }
-/* line 403, scss/_custom.scss */
+/* line 530, scss/_custom.scss */
 .full-width-block .full-width-content p small a:hover {
   color: yellow;
 }
@@ -9833,37 +9941,37 @@ header.frontpage-header .frontpage-header-row {
 * Page Single
 *
 **/
-/* line 418, scss/_custom.scss */
+/* line 545, scss/_custom.scss */
 .page-single-block {
   background: #0077ea;
   margin-bottom: 1rem;
   padding-bottom: 1rem;
 }
-/* line 423, scss/_custom.scss */
+/* line 550, scss/_custom.scss */
 .page-single-block img {
   padding-top: 1.5rem;
 }
-/* line 428, scss/_custom.scss */
+/* line 555, scss/_custom.scss */
 .page-single-block .page-single-content {
   padding-top: 1.5rem;
   padding-left: 1.5rem;
   padding-right: 1rem;
 }
-/* line 434, scss/_custom.scss */
+/* line 561, scss/_custom.scss */
 .page-single-block .page-single-content h2 {
   color: #51a9ff;
 }
-/* line 439, scss/_custom.scss */
+/* line 566, scss/_custom.scss */
 .page-single-block .page-single-content p small {
   font-size: 70%;
   border-bottom: 1px solid #84c2ff;
   padding-bottom: .5rem;
 }
-/* line 444, scss/_custom.scss */
+/* line 571, scss/_custom.scss */
 .page-single-block .page-single-content p small a {
   color: #ff9cce;
 }
-/* line 447, scss/_custom.scss */
+/* line 574, scss/_custom.scss */
 .page-single-block .page-single-content p small a:hover {
   color: yellow;
 }
@@ -9873,35 +9981,35 @@ header.frontpage-header .frontpage-header-row {
 * Page Contact
 *
 **/
-/* line 462, scss/_custom.scss */
+/* line 589, scss/_custom.scss */
 .contact-block {
   background: #0077ea;
   margin-bottom: 1rem;
   padding-bottom: 1rem;
 }
-/* line 467, scss/_custom.scss */
+/* line 594, scss/_custom.scss */
 .contact-block img {
   padding-top: 1.5rem;
 }
-/* line 472, scss/_custom.scss */
+/* line 599, scss/_custom.scss */
 .contact-block .contact-content {
   padding-top: 1.5rem;
   padding-left: 1.5rem;
   padding-right: 1rem;
 }
-/* line 478, scss/_custom.scss */
+/* line 605, scss/_custom.scss */
 .contact-block .contact-content h2 {
   color: #51a9ff;
 }
-/* line 483, scss/_custom.scss */
+/* line 610, scss/_custom.scss */
 .contact-block .contact-content form {
   padding-right: .5em;
 }
-/* line 487, scss/_custom.scss */
+/* line 614, scss/_custom.scss */
 .contact-block .contact-content form label {
   color: #b7dbff;
 }
-/* line 491, scss/_custom.scss */
+/* line 618, scss/_custom.scss */
 .contact-block .contact-content form .button {
   border: 2px double #005db7;
 }
@@ -9911,19 +10019,19 @@ header.frontpage-header .frontpage-header-row {
 * Content Sidebar
 *
 **/
-/* line 503, scss/_custom.scss */
+/* line 630, scss/_custom.scss */
 .contact-sidebar-block {
   margin-bottom: 1rem;
   background: dodgerblue;
 }
-/* line 508, scss/_custom.scss */
+/* line 635, scss/_custom.scss */
 .contact-sidebar-block .contact-sidebar-content {
   background: dodgerblue;
   padding-top: 1.5rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
-/* line 516, scss/_custom.scss */
+/* line 643, scss/_custom.scss */
 .contact-sidebar-block .contact-sidebar-content h3 {
   color: #c6c6c6;
   padding-bottom: .5em;
@@ -9934,12 +10042,12 @@ header.frontpage-header .frontpage-header-row {
 * Sidebar Content
 *
 **/
-/* line 528, scss/_custom.scss */
+/* line 655, scss/_custom.scss */
 .sidebar-block {
   margin-bottom: 1rem;
   background: dodgerblue;
 }
-/* line 533, scss/_custom.scss */
+/* line 660, scss/_custom.scss */
 .sidebar-block .sidebar-content {
   background: dodgerblue;
   padding-top: 1.5rem;
@@ -9947,34 +10055,34 @@ header.frontpage-header .frontpage-header-row {
   padding-right: 1rem;
 }
 
-/* line 544, scss/_custom.scss */
+/* line 671, scss/_custom.scss */
 .widget h3 {
   color: #aeaeae;
 }
-/* line 548, scss/_custom.scss */
+/* line 675, scss/_custom.scss */
 .widget img {
   padding-right: .5em;
 }
-/* line 550, scss/_custom.scss */
+/* line 677, scss/_custom.scss */
 .widget img:hover {
   opacity: .6;
 }
-/* line 555, scss/_custom.scss */
+/* line 682, scss/_custom.scss */
 .widget .widget-list {
   padding-bottom: 1.5rem;
   padding-right: .5rem;
 }
-/* line 561, scss/_custom.scss */
+/* line 688, scss/_custom.scss */
 .widget .widget-list li {
   background-color: #51a9ff;
   border-bottom: 1px solid #005db7;
   padding: 1rem;
 }
-/* line 566, scss/_custom.scss */
+/* line 693, scss/_custom.scss */
 .widget .widget-list li:hover {
   background-color: #0077ea;
 }
-/* line 569, scss/_custom.scss */
+/* line 696, scss/_custom.scss */
 .widget .widget-list li:hover a {
   color: lightgrey;
 }
@@ -9984,11 +10092,11 @@ header.frontpage-header .frontpage-header-row {
 * Footer
 *
 **/
-/* line 585, scss/_custom.scss */
+/* line 712, scss/_custom.scss */
 .footer a {
   color: #51a9ff;
 }
-/* line 588, scss/_custom.scss */
+/* line 715, scss/_custom.scss */
 .footer a:hover {
   color: #b7dbff;
 }
