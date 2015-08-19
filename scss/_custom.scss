@@ -72,11 +72,19 @@ header.frontpage-header {
 	h1 {
 		color: lighten( dodgerblue, 20%);
 		font-size: 5rem;
+
+		@media  (max-width: 480px) {
+			font-size: 3rem;
+		}
 	}
 	h4 {
 		color: lighten( dodgerblue, 10%);
 		font-size: 2rem;
 		margin-bottom: 2rem;
+
+		@media  (max-width: 480px) {
+			font-size: 1.5rem;
+		}
 	}
 
 	.frontpage-header-row {
@@ -101,12 +109,29 @@ header.frontpage-header {
 		// border: 1px solid red;
 		padding-top: 3rem;
 
+
+
 		.flex-video {
 			margin-top: 3rem;
+			@media  (max-width: 768px) {
+				margin-top: 0;
+				margin-bottom: -10rem;
+				// border: 1px solid red;
+			}
+			@media  (max-width: 640px) {
+				margin-top: 0;
+				margin-bottom: -6rem;
+				// border: 1px solid red;
+			}
+			@media  (max-width: 500px) {
+				margin-top: 0;
+				margin-bottom: -2rem;
+				// border: 1px solid red;
+			}
 		}
 
 		
-		margin-bottom: 1rem;
+		// margin-bottom: 1rem;
 		img {
 			border-radius: 50%;
 			padding-top: 1.5rem;
@@ -158,6 +183,35 @@ header.frontpage-header {
 
 		.flex-video {
 			margin-bottom: -2.3rem;
+
+			@media  (max-width: 930px) {
+				margin-top: 0;
+				margin-bottom: 0rem;
+				// border: 1px solid red;
+			}
+			@media  (max-width: 768px) {
+				margin-top: 3rem;
+				margin-bottom: -14rem;
+				// border: 1px solid red;
+			}
+			@media  (max-width: 680px) {
+				margin-top: 4rem;
+				margin-bottom: -6rem;
+				// border: 1px solid red;
+			}
+			@media  (max-width: 440px) {
+				margin-top: 4rem;
+				margin-bottom: -1rem;
+				// border: 1px solid red;
+			}
+		}
+		a.button {
+			border: 2px double darken( dodgerblue, 20% );
+			background: transparent;
+			// border: 4px solid darken( dodgerblue, 0%);
+			&:hover {
+				background: darken( dodgerblue, 10%);
+			}
 		}
 
 
@@ -211,15 +265,17 @@ header.frontpage-header {
 
 .frontpage-background-block-3 {
 
-	background: darken( dodgerblue, 20% );
+	background: darken( dodgerblue, 30% );
+	padding-top: 2rem;
 
-	.frontpage-block {
-		// background: lighten( grey, 10% );
-		// background: lighten( dodgerblue, 10% );
+	.frontpage-block-3 {
 		a.button {
 			border: 2px double darken( dodgerblue, 20% );
+			background: transparent;
+			&:hover {
+				background: darken( dodgerblue, 10%);
+			}
 		}
-		// background: darken( dodgerblue, 10% );
 		margin-bottom: 1rem;
 		img {
 			border-radius: 50%;
@@ -231,11 +287,23 @@ header.frontpage-header {
 		}
 
 
-		.frontpage-content {
+		.frontpage-content-3 {
 			padding-top: 1.5rem;
 			padding-left: 1.5rem;
 			padding-right: 1rem;
 			// border: 1px solid yellow;
+			@include transition(all 0.2s ease-in-out);
+
+			@media  (max-width: 640px) {
+				border-bottom: 2px solid darken( dodgerblue, 40% );
+			}
+
+			&:hover {
+				background: darken( dodgerblue, 40% );
+				border: 3px solid black;
+				@include transform(scale(.99));
+
+			}
 
 			h3 {
 				a {
@@ -259,6 +327,43 @@ header.frontpage-header {
 							color: yellow;
 						}
 					}
+				}
+			}
+		}
+	}
+}
+.frontpage-background-block-4 {
+
+
+	.frontpage-block-4 {
+
+		
+		padding-top: 2rem;
+		// background: darken( dodgerblue, 10% );
+		margin-bottom: 1rem;
+		img {
+			border-radius: 50%;
+
+			&:hover {
+				border-radius: 0%;
+			}
+		}
+
+
+		.frontpage-content-4 {
+			padding-top: 1.5rem;
+			padding-left: 1.5rem;
+			padding-right: 1rem;
+			background: rgba( 0,0,0, .5);
+
+
+			
+
+			blockquote {
+				color: lighten( dodgerblue, 10% );
+				cite {
+					color: lighten( dodgerblue, 1% );
+
 				}
 			}
 		}
