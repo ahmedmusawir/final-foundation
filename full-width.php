@@ -21,7 +21,7 @@
           <article class="full-width-block clearfix">
 
             <div class="large-12 medium-12 columns">
-              <img class="img-responsive" src="images/full-width-img-1.jpeg" alt="">
+              <img class="img-responsive" src="images/full-width-img-1.jpg" alt="">
               <!-- <img class="img-responsive" src="http://lorempixel.com/950/450/abstract/9" alt=""> -->
             </div>
             <div class="full-width-content large-12 medium-12 columns">

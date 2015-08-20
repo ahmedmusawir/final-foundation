@@ -21,7 +21,8 @@
           <article class="blog-single-block clearfix">
 
             <div class="large-12 medium-12 columns">
-              <img class="img-responsive" src="images/post-single-img-1.jpeg" alt="">
+              <!-- <img class="img-respo" src="images/full-width-img-1.jpg" alt=""> -->
+              <img class="img-responsive" src="images/post-single-img-1.jpg" alt="">
               <!-- <img class="img-responsive" src="http://lorempixel.com/400/250/abstract/6" alt=""> -->
             </div>
             <div class="blog-single-content large-12 medium-12 columns">
@@ -83,7 +84,7 @@
 
               <div class="sidebar-content widget">
                 <h3>Article Title</h3>
-                  <p><a href="#" title=""><img class="img-responsive" src="images/sidebar-img-1.jpeg" alt=""></a></p>
+                  <p><a href="#" title=""><img class="img-responsive" src="images/portfolio-img-1.jpg" alt=""></a></p>
                   <!-- <p><a href="#" title=""><img class="img-responsive" src="http://lorempixel.com/280/200/nature/1" alt=""></a></p> -->
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

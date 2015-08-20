@@ -21,7 +21,7 @@
           <article class="about-block clearfix">
 
             <div class="large-6 medium-6 columns">
-              <img class="img-responsive img-top-left" src="images/about-img-1.jpeg" alt="">
+              <img class="img-responsive img-top-left" src="images/about-img-1.jpg" alt="">
               <!-- <img class="img-responsive" src="http://lorempixel.com/640/640/abstract/7" alt=""> -->
             </div>
             <div class="about-content large-6 medium-6 columns">
@@ -47,6 +47,7 @@
           <article class="about-block clearfix">
 
             <div class="about-content large-6 medium-6 columns">
+            
               <h2>Our Goal</h2>
              
               <p> 
@@ -65,7 +66,7 @@
             </div>
            
             <div class="large-6 medium-6 columns">
-              <img class="img-responsive img-bottom-right" src="images/about-img-2.jpeg" alt="">
+              <img class="img-responsive img-bottom-right" src="images/about-img-2.jpg" alt="">
               <!-- <img class="img-responsive" src="http://lorempixel.com/640/640/abstract/5" alt=""> -->
             </div>
 

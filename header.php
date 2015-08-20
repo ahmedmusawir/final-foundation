@@ -13,7 +13,7 @@
     <nav class="top-bar" data-topbar role="navigation">
       <ul class="title-area">
         <li class="name">
-          <h1><a href="#">Stellarum</a></h1>
+          <h1><a href="index.php">Stellarum</a></h1>
         </li>
          <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
         <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
@@ -21,7 +21,7 @@
 
       <section class="top-bar-section">
         <!-- Right Nav Section -->
-        <ul class="right">
+        <ul class="right main-nav">
           <li class="active"><a href="index.php"><i class="fa fa-lg fa-home"></i> Home</a></li>
           <li class=""><a href="about.php"><i class="fa fa-lg fa-firefox"></i> About</a></li>
           <li class=""><a href="portfolio.php"><i class="fa fa-lg fa-gg"></i> Portfolio</a></li>
@@ -32,7 +32,7 @@
 
             <ul class="dropdown">
               <li><a href="single.php">Single Post</a></li>
-              <li><a href="page.php">Single Page</a></li>
+              <li class="active"><a href="page.php">Single Page</a></li>
               <li><a href="full-width.php">Full Width Page</a></li>
             </ul>
           </li>

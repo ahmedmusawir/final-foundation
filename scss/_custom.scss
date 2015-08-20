@@ -488,7 +488,8 @@ header.frontpage-header {
 	margin-bottom: 1rem;
 	padding-bottom: 1rem;
 	img {
-		padding-top: 1.5rem;
+		// padding-top: 1.5rem;
+		margin-left: 1rem;
 	}
 
 
@@ -547,6 +548,13 @@ header.frontpage-header {
 		padding-right: 1rem;
 		// border: 1px solid yellow;
 
+		img {
+			opacity: .6;
+			&:hover {
+				opacity: 1;
+			}
+		}
+
 		h2 {
 			color: lighten( dodgerblue, 10% );
 			padding-bottom: 2rem;
@@ -588,7 +596,7 @@ header.frontpage-header {
 		@include filter(grayscale(100%));
 
 		&:hover {
-			@include filter(grayscale(30%));
+			@include filter(grayscale(5%));
 			opacity: 1;
 		}
 
@@ -640,7 +648,8 @@ header.frontpage-header {
 	margin-bottom: 1rem;
 	padding-bottom: 1rem;
 	img {
-		padding-top: 1rem;
+		// padding-top: 1rem;
+		margin-left: 1rem;
 	}
 
 
@@ -684,7 +693,8 @@ header.frontpage-header {
 	margin-bottom: 1rem;
 	padding-bottom: 1rem;
 	img {
-		padding-top: 1.5rem;
+		// padding-top: 1.5rem;
+		margin-left: 1rem;
 	}
 
 
@@ -702,7 +712,7 @@ header.frontpage-header {
 
 /**
 *
-* Page Contact
+* Contact Page
 *
 **/
 
@@ -805,8 +815,10 @@ header.frontpage-header {
 
 	img {
 		padding-right: .5em;
+		opacity: .6;
+
 		&:hover {
-			opacity: .6;
+			opacity: 1;
 		}
 	}
 	

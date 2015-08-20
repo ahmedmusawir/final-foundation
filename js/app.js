@@ -40,7 +40,57 @@ jQuery(document).ready(function($) {
 
 			$container.isotope( { filter: filterValue });
 		});
-	
+
+
+/**
+ *
+ * Top Nav Active Class
+ *
+ */
+
+		$('.main-nav').on( 'click', 'li', function(e) {
+
+			e.preventDefault();
+
+			var $this = $(this);
+			var $mainNav = $(this).parent();
+
+			var $topActive = $mainNav.find('.active');
+			$topActive.removeClass('active');
+
+			$this.addClass('active');
+
+		});
+ 			
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

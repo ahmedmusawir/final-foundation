@@ -21,7 +21,7 @@
           <article class="blog-index-block clearfix">
 
             <div class="large-5 medium-5 columns">
-              <a class="" href="#" title=""><img class="img-responsive" src="images/blog-img-1.jpeg" alt=""></a>
+              <a class="" href="#" title=""><img class="img-responsive" src="images/blog-img-1.jpg" alt=""></a>
               <!-- <a class="" href="#" title=""><img class="img-responsive" src="http://lorempixel.com/640/640/abstract/6" alt=""></a> -->
             </div>
             <div class="blog-index-content large-7 medium-7 columns">
@@ -69,7 +69,7 @@
           <article class="blog-index-block clearfix">
 
             <div class="large-5 medium-5 columns">
-              <a href="#" title=""><img class="img-responsive" src="images/blog-img-2.jpeg" alt=""></a>
+              <a href="#" title=""><img class="img-responsive" src="images/blog-img-2.jpg" alt=""></a>
             </div>
             <div class="blog-index-content large-7 medium-7 columns">
               <h3><a href="#" title="">Article Title</a></h3>
@@ -135,7 +135,7 @@
 
               <div class="sidebar-content widget">
                 <h3>Article Title</h3>
-                  <p><a href="#" title=""><img class="img-responsive" src="images/sidebar-img-1.jpeg" alt=""></a></p>
+                  <p><a href="#" title=""><img class="img-responsive" src="images/sidebar-img-1.jpg" alt=""></a></p>
                   <!-- <p><a href="#" title=""><img class="img-responsive" src="http://lorempixel.com/280/200/nature/1" alt=""></a></p> -->
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
