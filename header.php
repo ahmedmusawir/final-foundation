@@ -39,9 +39,9 @@
         </ul>
 
         <!-- Left Nav Section -->
-        <ul class="left">
+        <!-- <ul class="left">
           <li><a href="#">Left Nav Button</a></li>
-        </ul>
+        </ul> -->
       </section>
     </nav>
   </div>

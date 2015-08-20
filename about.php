@@ -76,14 +76,23 @@
               <h2 class="text-center">Our Partners</h2>
              
               <ul class="small-block-grid-2 medium-block-grid-4 large-block-grid-4">
-                <li><a href="#" title=""><img class="th" src="http://lorempixel.com/640/640/abstract/1"></a></li>
+                <li><a href="#" title=""><img class="th" src="images/partner-1.jpg"></a></li>
+                <li><a href="#" title=""><img class="th" src="images/partner-2.jpg"></a></li>
+                <li><a href="#" title=""><img class="th" src="images/partner-9.jpg"></a></li>
+                <li><a href="#" title=""><img class="th" src="images/partner-4.jpg"></a></li>
+                <li><a href="#" title=""><img class="th" src="images/partner-5.jpg"></a></li>
+                <li><a href="#" title=""><img class="th" src="images/partner-6.jpg"></a></li>
+                <li><a href="#" title=""><img class="th" src="images/partner-7.jpg"></a></li>
+                <li><a href="#" title=""><img class="th" src="images/partner-8.jpg"></a></li>
+
+                <!-- <li><a href="#" title=""><img class="th" src="http://lorempixel.com/640/640/abstract/1"></a></li>
                 <li><a href="#" title=""><img class="th" src="http://lorempixel.com/640/640/abstract/2"></a></li>
                 <li><a href="#" title=""><img class="th" src="http://lorempixel.com/640/640/abstract/3"></a></li>
                 <li><a href="#" title=""><img class="th" src="http://lorempixel.com/640/640/abstract/6"></a></li>
                 <li><a href="#" title=""><img class="th" src="http://lorempixel.com/640/640/abstract/5"></a></li>
                 <li><a href="#" title=""><img class="th" src="http://lorempixel.com/640/640/abstract/7"></a></li>
                 <li><a href="#" title=""><img class="th" src="http://lorempixel.com/640/640/abstract/8"></a></li>
-                <li><a href="#" title=""><img class="th" src="http://lorempixel.com/640/640/abstract/9"></a></li>
+                <li><a href="#" title=""><img class="th" src="http://lorempixel.com/640/640/abstract/9"></a></li> -->
               </ul>
            
             </div>
