@@ -26,7 +26,7 @@
 
 </header><!-- /header -->
 
-<section class="main-content">
+<section id="index" class="main-content">
 
   <div class="frontpage-background-block-1">
     

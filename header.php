@@ -9,7 +9,7 @@
     <script src="bower_components/modernizr/modernizr.js"></script>
   </head>
   <body>
-  <div class="contain-to-grid fixed">
+  <div id="fuckyou" class="contain-to-grid fixed  hide-for-small-down">
     <nav class="top-bar" data-topbar role="navigation">
       <ul class="title-area">
         <li class="name">
@@ -22,18 +22,18 @@
       <section class="top-bar-section">
         <!-- Right Nav Section -->
         <ul class="right main-nav">
-          <li class="active"><a href="index.php"><i class="fa fa-lg fa-home"></i> Home</a></li>
-          <li class=""><a href="about.php"><i class="fa fa-lg fa-firefox"></i> About</a></li>
-          <li class=""><a href="portfolio.php"><i class="fa fa-lg fa-gg"></i> Portfolio</a></li>
-          <li class=""><a href="blog.php"><i class="fa fa-lg fa-group"></i>  Blog</a></li>
-          <li class=""><a href="contact.php"><i class="fa fa-lg fa-mobile"></i> Contact</a></li>
+          <li data-page="index.php"><a href="index.php"><i class="fa fa-lg fa-home"></i> Home</a></li>
+          <li data-page="about.php"><a href="about.php"><i class="fa fa-lg fa-firefox"></i> About</a></li>
+          <li data-page="portfolio.php"><a href="portfolio.php"><i class="fa fa-lg fa-gg"></i> Portfolio</a></li>
+          <li data-page="blog.php"><a href="blog.php"><i class="fa fa-lg fa-group"></i>  Blog</a></li>
+          <li data-page="contact.php"><a href="contact.php"><i class="fa fa-lg fa-mobile"></i> Contact</a></li>
           <li class="has-dropdown">
-            <a href="#">Dropdown</a>
+            <a href="">Dropdown</a>
 
             <ul class="dropdown">
-              <li><a href="single.php">Single Post</a></li>
-              <li class="active"><a href="page.php">Single Page</a></li>
-              <li><a href="full-width.php">Full Width Page</a></li>
+              <li data-page="single.php"><a href="single.php">Single Post</a></li>
+              <li data-page="page.php"><a href="page.php">Single Page</a></li>
+              <li data-page="full-width.php"><a href="full-width.php">Full Width Page</a></li>
             </ul>
           </li>
         </ul>
@@ -43,5 +43,50 @@
           <li><a href="#">Left Nav Button</a></li>
         </ul> -->
       </section>
+      
     </nav>
   </div>
+  <nav class="off-canvas-wrap" data-offcanvas>
+      <div class="inner-wrap">
+        <nav class="tab-bar">
+          <section class="left-small">
+            <a class="left-off-canvas-toggle menu-icon " href="#"><span></span></a>
+          </section>
+
+          <section class="middle tab-bar-section">
+            <h1 class="title">Foundation</h1>
+          </section>
+
+          <section class="right-small">
+            <a class="right-off-canvas-toggle menu-icon" href="#"><span></span></a>
+          </section>
+        </nav>
+
+        <aside class="left-off-canvas-menu">
+          <ul class="off-canvas-list">
+            <li><label>Foundation</label></li>
+            <li><a href="#">The Psychohistorians</a></li>
+            <li><a href="#">The Psychohistorians</a></li>
+            <li><a href="#">The Psychohistorians</a></li>
+            <li><a href="#">The Psychohistorians</a></li>
+            <li><a href="#">The Psychohistorians</a></li>
+            <li><a href="#">...</a></li>
+          </ul>
+        </aside>
+
+        <aside class="right-off-canvas-menu">
+          <ul class="off-canvas-list">
+            <li><label>Users</label></li>
+            <li><a href="#">Hari Seldon</a></li>
+            <li><a href="#">...</a></li>
+          </ul>
+        </aside>
+
+        <section class="main-section">
+          <!-- content goes here -->
+        </section>
+
+        <a class="exit-off-canvas"></a>
+
+
+

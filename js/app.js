@@ -1,8 +1,10 @@
 // Foundation JavaScript
 // Documentation can be found at: http://foundation.zurb.com/docs
 jQuery(document).ready(function($) {
-	$(document).foundation();
+	
+		$(document).foundation( 'topbar', 'reflow' );
 
+		$( 'body' ).fadeIn(2000);   
 
 /**
 *
@@ -10,10 +12,11 @@ jQuery(document).ready(function($) {
 *
 **/
 
-	var $container = $('.portfolio-container').isotope( 
-		{ 
-			itemSelector: '.grid-item',
-			percentPosition: true
+		
+		var $container = $('.portfolio-container').isotope( 
+				{ 
+					itemSelector: '.grid-item',
+					percentPosition: true
 
 
 		} );
@@ -41,29 +44,31 @@ jQuery(document).ready(function($) {
 			$container.isotope( { filter: filterValue });
 		});
 
-
 /**
  *
- * Top Nav Active Class
+ * Nav Active Highlight
  *
  */
+	 	var page = window.location.pathname;
+	 	// console.log(page);
 
-		$('.main-nav').on( 'click', 'li', function(e) {
+	 	var currentPage = page.substring(1, page.length);
+	 	// console.log(currentPage);
+		
+		// var $activeLink = $('.main-nav').children("li:contains('About')").css('border', '1px solid red');
+		// var $activeLink = $('.main-nav').children('li').children("a:contains('About')").css('color', 'red');
+		
+		$(".main-nav").find("[data-page='" + currentPage + "']").addClass('active');
 
-			e.preventDefault();
+		var dropdown = $('.dropdown').children('li').hasClass('active');
+		console.log(dropdown);
 
-			var $this = $(this);
-			var $mainNav = $(this).parent();
+		if (dropdown) {
+			$('.has-dropdown').addClass('active');
+		}
 
-			var $topActive = $mainNav.find('.active');
-			$topActive.removeClass('active');
-
-			$this.addClass('active');
-
-		});
- 			
+			
 });
-
 
 
 

@@ -1,5 +1,6 @@
 // MY CUSTOM CSS
 body {
+	display: none;
 	color: lighten( grey, 30% );
 	// background-color: hotpink;
 	 background: url(images/bg-brick-2.jpg) no-repeat center center fixed; 
@@ -8,6 +9,11 @@ body {
 	  -o-background-size: cover;
 	  background-size: cover;
 
+}
+
+.fuck {
+	color: red;
+	border: 4px dotted yellow;
 }
 
 header {
@@ -55,7 +61,7 @@ header.frontpage-header {
 	height: 700px;
 	border: 1px dotted black;
 
-	background: url(images/frontpage-galaxy-4.jpg) no-repeat center center fixed; 
+	// background: url(images/frontpage-galaxy-4.jpg) no-repeat center center fixed; 
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -586,7 +592,8 @@ header.frontpage-header {
 
 .portfolio-block {
 
-	background: darken( dodgerblue, 25% );
+	// background: darken( dodgerblue, 25% );
+	background: rgba( darken( dodgerblue, 25% ), .8 );
 	margin-bottom: 1rem;
 	padding-bottom: 1rem;
 	padding-right: .5rem;
