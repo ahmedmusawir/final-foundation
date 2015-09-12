@@ -2,9 +2,10 @@
 // Documentation can be found at: http://foundation.zurb.com/docs
 jQuery(document).ready(function($) {
 	
+		// $(document).foundation();
 		$(document).foundation( 'topbar', 'reflow' );
 
-		$( 'body' ).fadeIn(2000);   
+		$( 'main' ).fadeIn(1000);   
 
 /**
 *
@@ -27,7 +28,6 @@ jQuery(document).ready(function($) {
 		});
 
 
-		//Filter Code
 		$('.portfolio-filter').on( 'click', 'a', function(e) {
 
 			e.preventDefault();
@@ -50,13 +50,8 @@ jQuery(document).ready(function($) {
  *
  */
 	 	var page = window.location.pathname;
-	 	// console.log(page);
 
 	 	var currentPage = page.substring(1, page.length);
-	 	// console.log(currentPage);
-		
-		// var $activeLink = $('.main-nav').children("li:contains('About')").css('border', '1px solid red');
-		// var $activeLink = $('.main-nav').children('li').children("a:contains('About')").css('color', 'red');
 		
 		$(".main-nav").find("[data-page='" + currentPage + "']").addClass('active');
 

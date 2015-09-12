@@ -12,7 +12,7 @@
 
 </style>
  
-<header id="header" class="frontpage-header">
+<header id="header-frontpage" class="frontpage-header">
 
   <div class="row frontpage-header-row">
     <div class="large-12 columns text-center">

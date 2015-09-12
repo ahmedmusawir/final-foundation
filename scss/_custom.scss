@@ -1,8 +1,6 @@
 // MY CUSTOM CSS
 body {
-	display: none;
 	color: lighten( grey, 30% );
-	// background-color: hotpink;
 	 background: url(images/bg-brick-2.jpg) no-repeat center center fixed; 
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
@@ -11,10 +9,15 @@ body {
 
 }
 
-.fuck {
-	color: red;
-	border: 4px dotted yellow;
+main {
+	display: none;
 }
+
+
+#header {
+	margin-top: 1rem;
+}
+
 
 header {
 
@@ -314,7 +317,7 @@ header.frontpage-header {
 			&:hover {
 				background: darken( dodgerblue, 40% );
 				// border: 3px solid black;
-				@include transform(scale(.9));
+				@include transform(scale(.95));
 
 			}
 
@@ -345,6 +348,7 @@ header.frontpage-header {
 		}
 	}
 }
+
 .frontpage-background-block-4 {
 
 
@@ -622,10 +626,12 @@ header.frontpage-header {
 		}
 
 		nav {
-			// border: 1px solid black;
+			// border: 1px solid red;
 			background-color: #3e3e3e;
 			padding-top: 1em;
 			margin-bottom: 1em;
+
+			
 
 			dd {
 				a {
@@ -640,9 +646,14 @@ header.frontpage-header {
 		.portfolio-container {
 			// border: 1px solid red;
 			margin-top: 6rem;
+
+			@media screen and ( max-width: 320px) {
+				margin-top: 9rem;
+			}
 		}
 	}
 }
+
 /**
 *
 * Full Width Page
@@ -800,6 +811,7 @@ header.frontpage-header {
 * Sidebar Content
 *
 **/
+
 .sidebar-block {
 	margin-bottom: 1rem;
 	background: darken( dodgerblue, 15% );
