@@ -10065,7 +10065,7 @@ header.frontpage-header .frontpage-header-row {
 .portfolio-block .portfolio-content .portfolio-container {
   margin-top: 6rem;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 390px) {
   /* line 646, scss/_custom.scss */
   .portfolio-block .portfolio-content .portfolio-container {
     margin-top: 9rem;

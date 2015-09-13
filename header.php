@@ -31,7 +31,6 @@
           <li data-page="contact.php"><a href="contact.php"><i class="fa fa-lg fa-mobile"></i> Contact</a></li>
           <li class="has-dropdown">
             <a href="">Dropdown</a>
-
             <ul class="dropdown">
               <li data-page="single.php"><a href="single.php">Single Post</a></li>
               <li data-page="page.php"><a href="page.php">Single Page</a></li>
